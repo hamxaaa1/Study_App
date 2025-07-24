@@ -1,0 +1,7 @@
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1f1c2c, #1f1c2c);
+  color: white;
+  min-height: 100vh;
+}

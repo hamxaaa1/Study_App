@@ -1,0 +1,114 @@
+.comment-section {
+  background: #fff;
+  margin: 40px auto;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+}
+
+.comment-heading {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.comment-textarea {
+  width: 100%;
+  padding: 15px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  resize: none;
+  background: #f9f9f9;
+  margin-bottom: 15px;
+}
+
+.comment-textarea:focus {
+  outline: none;
+  border-color: #4e54c8;
+  background: #fff;
+}
+
+.comment-add-btn {
+  display: inline-block;
+  background: #4e54c8;
+  color: white;
+  font-weight: 600;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-bottom: 20px;
+}
+
+.comment-add-btn:hover {
+  background: #8f94fb;
+}
+
+.comment-list {
+  margin-top: 25px;
+}
+
+.comment-item {
+  background: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.05);
+}
+
+.comment-text {
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.comment-meta {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: white;
+}
+
+.badge-admin {
+  background: #28a745;
+}
+
+.badge-student {
+  background: #007bff;
+}
+
+.comment-delete-btn {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: #e63946;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  font-size: 0.9rem;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.comment-delete-btn:hover {
+  background: #d62828;
+}
+
+.no-comments {
+  font-style: italic;
+  color: #777;
+  text-align: center;
+  margin-top: 10px;
+}

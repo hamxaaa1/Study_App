@@ -1,0 +1,73 @@
+.note-edit-container {
+  max-width: 600px;
+  margin: 50px auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.note-edit-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.note-edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.note-edit-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.note-edit-group label {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.note-edit-group input,
+.note-edit-group textarea,
+.note-edit-group select {
+  padding: 12px;
+  font-size: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  transition: all 0.3s;
+}
+
+.note-edit-group input:focus,
+.note-edit-group textarea:focus,
+.note-edit-group select:focus {
+  outline: none;
+  border-color: #4e54c8;
+  background: #ffffff;
+}
+
+.note-edit-btn {
+  padding: 15px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  background: #4e54c8;
+  color: white;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.note-edit-btn:hover {
+  background: #8f94fb;
+}
+
+.note-loading {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 100px;
+  color: #4e54c8;
+}

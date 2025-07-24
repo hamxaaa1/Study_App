@@ -1,0 +1,98 @@
+.dashboard-container {
+  min-height: 100vh;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+}
+
+.dashboard-title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #f0f0f0;
+}
+
+.dashboard-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  align-items: start;
+}
+
+.dashboard-column {
+  background: #2a2a45;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
+  color: #f0f0f0;
+}
+
+.dashboard-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #8f94fb;
+  padding-bottom: 10px;
+}
+
+.dashboard-empty {
+  text-align: center;
+  color: #bbb;
+  font-style: italic;
+}
+
+.dashboard-item {
+  background: #3a3a60;
+  color: #f0f0f0;
+  padding: 18px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.dashboard-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.7);
+}
+
+.dashboard-buttons {
+  margin-top: 12px;
+  display: flex;
+  gap: 10px;
+}
+
+.delete-btn,
+.edit-btn {
+  padding: 10px 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.delete-btn {
+  background: #e74c3c;
+}
+
+.delete-btn:hover {
+  background: #c0392b;
+}
+
+.edit-btn {
+  background: #6c63ff;
+}
+
+.edit-btn:hover {
+  background: #8f94fb;
+}
+
+@media (max-width: 900px) {
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+}

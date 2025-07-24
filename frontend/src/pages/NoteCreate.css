@@ -1,0 +1,76 @@
+.note-create-container {
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(135deg, #1f1c2c, #928dab);
+  padding: 20px;
+  color: #f0f0f0;
+  margin-top: 10px;
+}
+
+
+.note-create-card {
+  background: #2c2c54;
+  max-width: 600px;
+  width: 100%;
+  padding: 35px 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+
+.note-create-heading {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #f0f0f0;
+  font-size: 1.8rem;
+}
+
+.note-create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.note-input,
+.note-textarea {
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #444;
+  background: #3c3c72;
+  color: #f0f0f0;
+  font-size: 1rem;
+  transition: border 0.3s, background 0.3s;
+}
+
+.note-input:focus,
+.note-textarea:focus {
+  outline: none;
+  border: 1px solid #8f94fb;
+  background: #4e54c8;
+}
+
+.note-input::placeholder,
+.note-textarea::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+
+.note-textarea {
+  height: 120px;
+  resize: vertical;
+}
+
+.note-submit-btn {
+  background: #4e54c8;
+  color: #f0f0f0;
+  font-weight: 600;
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.note-submit-btn:hover {
+  background: #8f94fb;
+}
